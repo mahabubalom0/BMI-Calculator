@@ -10,8 +10,9 @@ class Allicons{
   static final IconData fitness= Icons.fitness_center;
   static final IconData fevorite= Icons.favorite;
   static final IconData scale= Icons.scale;
-  static final IconData back= Icons.arrow_forward_ios_outlined;
+  static final IconData next= Icons.arrow_forward_ios_outlined;
   static final IconData contac= Icons.contact_phone;
   static final IconData health= Icons.health_and_safety;
+  static final IconData back= Icons.arrow_back;
 
 }

@@ -1,5 +1,6 @@
 import 'package:bmi_calculator/component/allcolor.dart';
 import 'package:bmi_calculator/sereens/bmidesignscernce.dart';
+import 'package:bmi_calculator/sereens/daily_care.dart';
 import 'package:flutter/material.dart';
 
 class Homebtn extends StatefulWidget {
@@ -13,10 +14,8 @@ class _HomebtnState extends State<Homebtn> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.deepOrange,
-        title: Text("Home"),
-      ),
+      backgroundColor: Allcolor.bgcolor,
+
 
       body: SingleChildScrollView(
         child: Column(children: [
@@ -63,7 +62,7 @@ class _HomebtnState extends State<Homebtn> {
             child: InkWell(
               onTap: (){
                 setState(() {
-                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Bmidesignscernce()));
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=>DailyCare()));
                 });
               },
               child: Container(
@@ -83,11 +82,12 @@ class _HomebtnState extends State<Homebtn> {
                       decoration: BoxDecoration(
                         color: Allcolor.prymaricolor,
                         borderRadius: BorderRadius.circular(20),
-                          image: DecorationImage(image: AssetImage("assets/image/png/bmicalculator.jpg"),fit: BoxFit.cover)
+                          image: DecorationImage(image: AssetImage("assets/image/png/nijerjotnno.png"),fit: BoxFit.fitWidth)
               ),
                     ),
                     SizedBox(height: 10,),
-                    Text("BMI Calculator",style: TextStyle(color: Allcolor.white, fontSize: 19,fontWeight: FontWeight.bold),)
+
+                    Center(child: Text("প্রতিদিনের যত্ন",style: TextStyle(color: Allcolor.white, fontSize: 19,fontWeight: FontWeight.bold, ),))
                   ],
                 ),
               ),

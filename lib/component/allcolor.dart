@@ -9,5 +9,21 @@ class Allcolor{
   static final pinkcolor = Colors.pink;
   static final blackcolor = Colors.black;
   static final textcc = Colors.amber;
+  static final bgcolor = Color(0xff4a7986);
+  static final light_gray = Color(0xff6e5e9d);
+  static final gradian = LinearGradient(
+
+      begin: Alignment.center,
+      end: Alignment.bottomCenter,
+
+      colors: [
+
+    Color(0xff6e5e9d),
+    Color(0xff4a7986),
+    Color(0xff415e66),
+    Color(0xffd8e3df),
+
+
+  ]);
 
 }
