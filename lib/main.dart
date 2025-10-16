@@ -1,5 +1,6 @@
 import 'package:bmi_calculator/sereens/bmidesignscernce.dart';
 import 'package:bmi_calculator/sereens/home_paje.dart';
+import 'package:bmi_calculator/sereens/profile_input.dart';
 import 'package:flutter/material.dart';
 
 
@@ -14,7 +15,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePaje()
+      home:
+
+      HomePaje()
+      // ProfileInputPage()
 
       //Bmidesignscernce() ,
 

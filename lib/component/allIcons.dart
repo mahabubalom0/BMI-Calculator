@@ -13,6 +13,8 @@ class Allicons{
   static final IconData next= Icons.arrow_forward_ios_outlined;
   static final IconData contac= Icons.contact_phone;
   static final IconData health= Icons.health_and_safety;
-  static final IconData back= Icons.arrow_back;
+  static final IconData back= Icons.arrow_forward;
+  static final IconData back_fowrad= Icons.arrow_back;
+  static final IconData persion= Icons.person;
 
 }

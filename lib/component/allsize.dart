@@ -1,6 +1,6 @@
 class Allsize{
-  static final small=19.0;
-  static final meduam=21.0;
+  static final small=18.0;
+  static final meduam=20.0;
   static final larger=25.0;
   static final submedium=23.0;
   static final iconlarger=90.0;
