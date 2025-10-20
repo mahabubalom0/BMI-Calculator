@@ -2,7 +2,12 @@
 class Assets {
   Assets._();
 
-  static const String pngBmicalculator = 'assets/image/png/bmicalculator.jpg';
+  static const String jpgBely = 'assets/image/jpg/bely_.jpg';
+  static const String jpgBmicalculator = 'assets/image/jpg/bmicalculator.jpg';
+  static const String jpgDoctorHome = 'assets/image/jpg/doctor_home.jpg';
+  static const String jpgGorvoPaieils = 'assets/image/jpg/gorvo_paieils.jpeg';
+  static const String jpgSugger = 'assets/image/jpg/sugger.jpg';
+  static const String pngFood = 'assets/image/png/food.PNG';
   static const String pngNijerjotnno = 'assets/image/png/nijerjotnno.png';
   static const String pngPersion = 'assets/image/png/persion.png';
 

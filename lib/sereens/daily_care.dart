@@ -72,12 +72,21 @@ appBar: AppBar(
                         padding: const EdgeInsets.only(left: 15.0),
                         child: Text("২. আবেগীয় যত্ন...",style: TextStyle(color: Allcolor.textcc,fontSize: Allsize.larger,fontWeight: FontWeight.bold ),),
                       ),
-                    Text("আবেগীয় যত্ন হলো এমন সব কাজ, যেগুলো আপনাকে অন্য কিছুর সঙ্গে অনুভূতি দিয়ে জুড়ে রাখে। এই যেমন ডায়েরি লেখা, গান গাওয়া, থেরাপিস্টের সঙ্গে কথা বলা বা নিজের ভালো লাগে—এমন সৃজনশীল কাজে যুক্ত থাকা, ছবি আঁকা ইত্যাদি।",
-                     style: TextStyle(fontSize: Allsize.meduam,color: Allcolor.white),),
+                    Padding(
+                      padding: const EdgeInsets.all(18.0),
+                      child: Text("আবেগীয় যত্ন হলো এমন সব কাজ, যেগুলো আপনাকে অন্য কিছুর সঙ্গে অনুভূতি দিয়ে জুড়ে রাখে। এই যেমন ডায়েরি লেখা, গান গাওয়া, থেরাপিস্টের সঙ্গে কথা বলা বা নিজের ভালো লাগে—এমন সৃজনশীল কাজে যুক্ত থাকা, ছবি আঁকা ইত্যাদি।",
+                       style: TextStyle(fontSize: Allsize.meduam,color: Allcolor.white),),
+                    ),
         
         
-                    Text("৩. ব্যবহারিক যত্ন...",style: TextStyle(color: Allcolor.textcc,fontSize: Allsize.larger,fontWeight: FontWeight.bold ),),
-                    Text("এটি এমন কিছু করা, যা আপনাকে ভবিষ্যতে দুশ্চিন্তা থেকে মুক্তি দেবে। যেমন আয় বুঝে ব্যয়, অর্থ জমানো, পেশাগত দায়িত্ব ঠিকভাবে পালন, প্রতিদিনের খরচ লিখে রাখা, নিজের দক্ষতা বাড়ানোর প্রশিক্ষণ, ক্লাস করা, নিজের ওয়ার্ডরোব গুছিয়ে রাখা ইত্যাদি।",style: TextStyle(fontSize: Allsize.meduam,color: Allcolor.white),),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 15.0),
+                      child: Text("৩. ব্যবহারিক যত্ন...",style: TextStyle(color: Allcolor.textcc,fontSize: Allsize.larger,fontWeight: FontWeight.bold ),),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(18.0),
+                      child: Text("এটি এমন কিছু করা, যা আপনাকে ভবিষ্যতে দুশ্চিন্তা থেকে মুক্তি দেবে। যেমন আয় বুঝে ব্যয়, অর্থ জমানো, পেশাগত দায়িত্ব ঠিকভাবে পালন, প্রতিদিনের খরচ লিখে রাখা, নিজের দক্ষতা বাড়ানোর প্রশিক্ষণ, ক্লাস করা, নিজের ওয়ার্ডরোব গুছিয়ে রাখা ইত্যাদি।",style: TextStyle(fontSize: Allsize.meduam,color: Allcolor.white),),
+                    ),
         
         
         
