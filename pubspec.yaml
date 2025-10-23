@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   shared_preferences: ^2.5.3
   curved_navigation_bar:
+  animated_bottom_navigation_bar:
 
 
 dev_dependencies:

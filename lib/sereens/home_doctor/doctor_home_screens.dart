@@ -1,6 +1,7 @@
 import 'package:bmi_calculator/component/allIcons.dart';
 import 'package:bmi_calculator/component/allcolor.dart';
 import 'package:bmi_calculator/component/allsize.dart';
+import 'package:bmi_calculator/sereens/home_doctor/beli_5tips_screens.dart';
 import 'package:bmi_calculator/sereens/home_doctor/food_intolerance_screens.dart';
 import 'package:flutter/material.dart';
 
@@ -42,7 +43,10 @@ class DoctorHomeScreens extends StatelessWidget {
             color: Allcolor.prymaricolor.withOpacity(0.5),
             child: ListTile(
               selectedColor: Allcolor.prymaricolor,
-              onTap: (){},
+              onTap: (){
+
+                Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Beli5tipsScreens()));
+              },
               leading: Container(
                   height: 80,
                   width: 60,
