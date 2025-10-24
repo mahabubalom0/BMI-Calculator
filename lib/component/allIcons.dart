@@ -16,5 +16,8 @@ class Allicons{
   static final IconData back= Icons.arrow_forward;
   static final IconData back_fowrad= Icons.arrow_back;
   static final IconData persion= Icons.person;
+  static final IconData edite= Icons.edit;
+  static final IconData delete= Icons.delete;
+  static final IconData folder= Icons.folder_off;
 
 }

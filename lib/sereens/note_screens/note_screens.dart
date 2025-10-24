@@ -1,12 +1,17 @@
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 import 'package:bmi_calculator/component/allIcons.dart';
 import 'package:bmi_calculator/component/allcolor.dart';
+import 'package:bmi_calculator/sereens/note_screens/controller/note_controller.dart';
 import 'package:bmi_calculator/sereens/note_screens/note_fevorite_screens.dart';
+import 'package:bmi_calculator/sereens/note_screens/note_model/note_model.dart';
 import 'package:bmi_calculator/sereens/note_screens/note_view_screens.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 
 class NoteScreens extends StatefulWidget {
-  const NoteScreens({super.key});
+   NoteScreens({super.key});
+
 
   @override
   State<NoteScreens> createState() => _NoteScreensState();
@@ -16,10 +21,14 @@ class _NoteScreensState extends State<NoteScreens> {
   List<Widget> pages = [NoteViewScreens(), NoteFevoriteScreens()];
   int _activeindwex = 0;
 
+
+  NoteController controler = Get.put(NoteController());
+
   TextEditingController aboutclt = TextEditingController();
   TextEditingController descriptiontclt = TextEditingController();
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
@@ -56,6 +65,7 @@ class _NoteScreensState extends State<NoteScreens> {
         },
         activeIndex: _activeindwex,
       ),
+      body: pages[_activeindwex],
     );
   }
 
@@ -117,9 +127,8 @@ class _NoteScreensState extends State<NoteScreens> {
                       borderRadius: BorderRadius.circular(20.0)
                     ),
                     onPressed: (){
-                      setState(() {
-
-                      });
+                     controler.addnote(Notemodel(aboutclt.text, descriptiontclt.text, 'date'));
+                      Navigator.pop(context);
                     }),
               ],
             ),

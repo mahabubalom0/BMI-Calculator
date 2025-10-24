@@ -9,4 +9,7 @@ class Allsize{
   static final titlesize=50.0;
   static final biglarger=65.0;
   static final iconbig =110.0;
+  static final textsize =19.0;
+
+
 }

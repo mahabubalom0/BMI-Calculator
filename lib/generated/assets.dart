@@ -6,6 +6,7 @@ class Assets {
   static const String jpgBmicalculator = 'assets/image/jpg/bmicalculator.jpg';
   static const String jpgDoctorHome = 'assets/image/jpg/doctor_home.jpg';
   static const String jpgGorvoPaieils = 'assets/image/jpg/gorvo_paieils.jpeg';
+  static const String jpgLowBloodSugarjpg = 'assets/image/jpg/low-blood-sugarjpg.jpg';
   static const String jpgPotidinerNote = 'assets/image/jpg/potidiner_note.jpg';
   static const String jpgSugger = 'assets/image/jpg/sugger.jpg';
   static const String pngFood = 'assets/image/png/food.PNG';

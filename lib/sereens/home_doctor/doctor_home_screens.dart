@@ -3,7 +3,9 @@ import 'package:bmi_calculator/component/allcolor.dart';
 import 'package:bmi_calculator/component/allsize.dart';
 import 'package:bmi_calculator/sereens/home_doctor/beli_5tips_screens.dart';
 import 'package:bmi_calculator/sereens/home_doctor/food_intolerance_screens.dart';
+import 'package:bmi_calculator/sereens/home_doctor/sugger_low_screens.dart';
 import 'package:flutter/material.dart';
+import 'package:get/route_manager.dart';
 
 class DoctorHomeScreens extends StatelessWidget {
   const DoctorHomeScreens({super.key});
@@ -63,13 +65,15 @@ class DoctorHomeScreens extends StatelessWidget {
             color: Allcolor.prymaricolor.withOpacity(0.5),
             child: ListTile(
               selectedColor: Allcolor.prymaricolor,
-              onTap: (){},
+              onTap: (){
+                Navigator.of(context).push(MaterialPageRoute(builder: (context)=>SuggerLowScreens()));
+              },
               leading: Container(
                   height: 80,
                   width: 60,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
-                      image: DecorationImage(image: AssetImage("assets/image/png/food.PNG"),fit: BoxFit.cover)
+                      image: DecorationImage(image: AssetImage("assets/image/jpg/low-blood-sugarjpg.jpg"),fit: BoxFit.cover)
                   )),
 
               title: Text("সুগার কমে যাওয়া",style: TextStyle(fontSize: Allsize.meduam,fontWeight: FontWeight.bold,color: Allcolor.redcolor),),
