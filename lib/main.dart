@@ -1,6 +1,7 @@
 import 'package:bmi_calculator/sereens/bmidesignscernce.dart';
 import 'package:bmi_calculator/sereens/home_paje.dart';
 import 'package:bmi_calculator/sereens/profile_input.dart';
+import 'package:bmi_calculator/sereens/splash%20screens/splash_one_screens.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home:
 
-      HomePaje()
+        SplashOneScreens()
+      //HomePaje()
       // ProfileInputPage()
 
       //Bmidesignscernce() ,

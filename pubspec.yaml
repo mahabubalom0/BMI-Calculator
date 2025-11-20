@@ -36,8 +36,10 @@ dependencies:
   cupertino_icons: ^1.0.8
   shared_preferences: ^2.5.3
   get: ^4.7.2
+  material_design_icons_flutter: ^7.0.7296
   curved_navigation_bar:
   animated_bottom_navigation_bar:
+
 
 
 

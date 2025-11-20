@@ -8,9 +8,18 @@ class Assets {
   static const String jpgGorvoPaieils = 'assets/image/jpg/gorvo_paieils.jpeg';
   static const String jpgLowBloodSugarjpg = 'assets/image/jpg/low-blood-sugarjpg.jpg';
   static const String jpgPotidinerNote = 'assets/image/jpg/potidiner_note.jpg';
+  static const String jpgSplashtwo = 'assets/image/jpg/splashtwo.jpg';
   static const String jpgSugger = 'assets/image/jpg/sugger.jpg';
   static const String pngFood = 'assets/image/png/food.PNG';
   static const String pngNijerjotnno = 'assets/image/png/nijerjotnno.png';
   static const String pngPersion = 'assets/image/png/persion.png';
+  static const String pngPsycology = 'assets/image/png/psycology.png';
+  static const String pngSlider1 = 'assets/image/png/Slider1.png';
+  static const String pngSlider2 = 'assets/image/png/slider2.png';
+  static const String pngSlider3 = 'assets/image/png/Slider3.png';
+  static const String pngSlider4 = 'assets/image/png/Slider4.png';
+  static const String pngSlider5 = 'assets/image/png/Slider5.png';
+  static const String pngSplashone = 'assets/image/png/splashone.png';
+  static const String pngSplashss = 'assets/image/png/splashss.jpg';
 
 }
