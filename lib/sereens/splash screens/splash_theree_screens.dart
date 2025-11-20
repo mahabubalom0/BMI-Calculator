@@ -16,14 +16,14 @@ class _SplashThereeScreensState extends State<SplashThereeScreens> {
   @override
 
   @override
-  void initState() {
-    Future.delayed(Duration(seconds: 3),(){
-      Get.off(HomePaje());
-
-    });
-    // TODO: implement initState
-    super.initState();
-  }
+  // void initState() {
+  //   Future.delayed(Duration(seconds: 3),(){
+  //     Get.off(HomePaje());
+  //
+  //   });
+  //   // TODO: implement initState
+  //   super.initState();
+  // }
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(children: [
@@ -114,7 +114,7 @@ class _SplashThereeScreensState extends State<SplashThereeScreens> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                Image.asset("assets/image/png/persion-removebg-preview.png",height: 300,),
+                Image.asset("assets/image/png/persionremove.png",height: 300,),
                   Text("Doctor at your doorstep",style: AllStyles.titletextstyles,)
 
               ],),
